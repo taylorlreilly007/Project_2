@@ -1,11 +1,39 @@
 /*--Entire Page--*/
-
+*{
+    background-image:url(assets/textures/fabric_plaid.png);
+    background-repeat: repeat;
+}
 /*--Navigation--*/
 nav{
     display:flex;
+    justify-content: space-between;
+}
+.socialmedia{
+    width:2%;
+    border-radius: 15%;
+}
+.topofpage{
+
+    justify-content: space-between;
 }
 
+.right{
+    display: flex;
+    flex-direction: column;
+}
+/*--a @font-face{
+    font-family: museo-300-webfont;
+    src: url(css/assets/fonts/museo/museo-300-webfont.ttf)
+}--*/
+
 /*--Header--*/
+header{
+    background-color:gray;
+    display:flex;
+    justify-content: center;
+
+}
+
 
 /*--Body--*/
 
