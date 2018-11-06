@@ -33,6 +33,11 @@ header{
     justify-content: center;
 
 }
+.flexheader{
+    display:flex;
+    flex-flow: column nowrap;
+    align-items:flex-end;
+}
 
 
 /*--Body--*/

@@ -1,40 +1,46 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Document</title>
-        <link rel="stylesheet" href="css/main.css">
-    </head>
-    <nav>
-        <section class="topofpage">
-                <img src="css/assets/logo.png" alt="NesstLogo"> 
-                <a>about</a>
-                <a>gallery</a>
-                <a>documents</a>
-            <div class="right">
-                <div class="rightmages">
-                    <img src="css/assets/icons/facebook.png" class="socialmedia" alt="facebook">
-                    <img src="css/assets/icons/twitter.png" class="socialmedia" alt="twitter">
-                </div>
-                <div class="righttext">
-                    <a>login</a>
-                    <a>registration</a>
-                </div>  
-            </div>
-        </section>
-    </nav>
-    <header>
-        <section class="theheader">
-            <div>
-                <img src= "css/assets/images/header_image.jpg" class="headerimage" alt="featured_work">
-            </div>
+/*--Entire Page--*/
+*{
+    background-image:url(assets/textures/fabric_plaid.png);
+    background-repeat: repeat;
+}
+/*--Navigation--*/
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+.socialmedia{
+    width:2%;
+    border-radius: 15%;
+}
+.topofpage{
 
-        </section>
-    </header>
-    <body>
-        
-    </body>
-    <footer>
-        
-    </footer>
-</html>
+    justify-content: space-between;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+/*--a @font-face{
+    font-family: museo-300-webfont;
+    src: url(css/assets/fonts/museo/museo-300-webfont.ttf)
+}--*/
+
+/*--Header--*/
+header{
+    background-color:gray;
+    display:flex;
+    justify-content: center;
+
+}
+.flexheader{
+    display:flex;
+    flex-flow: column nowrap;
+    align-items:flex-end;
+}
+
+
+/*--Body--*/
+
+/*--Footer--*/ 
+
